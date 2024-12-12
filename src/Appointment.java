@@ -18,4 +18,6 @@ public class Appointment {
     public void markAsPaid() { this.isPaid = true; }
     public boolean isPaid() { return isPaid; }
     public String getUserId() { return userId; }
+
+
 }

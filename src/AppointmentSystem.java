@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class AppointmentSystem {
-    private static ArrayList<Appointment> appointments = new ArrayList<>();
+    static ArrayList<Appointment> appointments = new ArrayList<>();
 
     public static boolean bookAppointment(String userId, String clinicName,
             String doctorName, Date appointmentDate) {
